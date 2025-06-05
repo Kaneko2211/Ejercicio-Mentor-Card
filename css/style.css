@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('/assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('/assets/fonts/static/Figtree-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('/assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 100 900;
+    /* soporta pesos variables */
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('/assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    /* soporta pesos variables */
+}
+
+
+.attribution {
+    
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree';
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F4D04E;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 522px;
+    width: 384px;
+    gap: 12px;
+}
+
+.cont-cart {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 522px;
+    width: 384px;
+    border-radius: 20px;
+    padding-top: 24px;
+    padding-left: 24px;
+    box-shadow: 9px 9px rgb(0, 0, 0);
+}
+
+img {
+    width: 336px;
+    height: 200px;
+
+    border-radius: 20px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4D04E;
+    width: 82px;
+    height: 29px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    color: hsl(0, 0%, 7%);
+}
+.avatar{
+    height: 32px;
+    width: 32px;
+}
+.texto {
+    margin-top: 24px;
+    width: 336px;
+    height: 194px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.texto3{
+    font-size: 14px;
+    font-weight: 800;
+}
+h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(0, 0%, 7%);
+}
+
+h1:hover{
+    color: #F4D04E;
+    cursor: pointer;
+}
+.texto1{
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 7%);
+}
+.texto2{
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%)
+}
